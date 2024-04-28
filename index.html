@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">  
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+  <!-- HEADER START -->
+  <header class="d-flex justify-content-center align-items-center">
+    <div class="navbar navbar-expand-lg" style="gap:13rem">
+      <div class="container-fluid">
+          <a href="#" class="navbar-brand"><img src="img/logo.png" alt=""></a>
+          <button class="navbar-toggler" id="barButton" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fas fa-bars" style="color:white"></i>
+          </button>
+          <div class="collapse navbar-collapse flex-column-reverse" id="navbarSupportedContent">
+              <ul class="navbar-nav mt-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#home" style="color:white">Home <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#classes" style="color:white">Classes <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#trainer" style="color:white;">Trainer <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#review" style="color:white;">Review <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact" style="color:white;">Contact <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item">
+                      <button class="btn" id="button" style="background-color: orange; color: white;"
+                          type="button">JOIN US</button>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </div>
+</header>
+<!-- HEADER END -->
+    <!-- SECTİON HOME -->
+    <section id="home">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 p-0 ">
+              <div class="home-content" style="padding: 8rem 18% 2rem;">
+                  <button class="button-content" style="background-color: rgb(22, 51, 143); border-radius: 5px; color:white; height: 30px;" disabled>POWERFULL</button>
+                  <h1  style="font-size: 54px; font-weight: bold; color: white;">Group <br> Practice <br> With Trainer</h1>
+                  <p class="aciklama" style="font-weight: 200; font-weight: bold; color:white; background-color: rgba(0, 0, 0, 0.5);width: 80%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Expedita quisquam amet sit, vel animi a deserunt molestias 
+                      quas, laudantium neque natus Lorem ipsum dolor, sit amet consectetur 
+                      adipisicing elit. D
+                      ucimus, vitae? voluptatum soluta suscipit 
+                      sint Lorem ipsum dolor sit amet. aspernatur nam possimus 
+                      earum tenetur.
+                  </p>
+                  <div class="buttons" style="display: flex;">
+                    <button class="signUp">Sign Up</button>
+                    <button class="details">Details</button>
+                  </div>
+                 
+              </div>
+              <div class="w-100" style="background-color: rgb(203, 217, 221);">
+                <div class="cards d-flex justify-content-center align-items-center w-100" id="homeCards">
+                  <div class="card" >
+                    <div class="card-body">
+                      <h5 class="card-title">325</h5>
+                      <p class="card-text">Course</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">405</h5>
+                      <p class="card-text">Work Out</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">305</h5>
+                      <p class="card-text">Working Hour</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">705</h5>
+                      <p class="card-text">Happy Client</p>
+                    </div>
+                  </div>
+                </div> 
+            </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- SECTİON CLASSESS -->
+    <section id="classes">
+        <div class="section">
+            <h2 style="font-weight: bolder; color: blue; margin-top: 35px;">OUR CLASSES</h2>
+            <hr class="hr">
+            <p class="prg">Lorem ipsum, dolor  adipisicing elit. Mollitia est provident illo consequatur molestias rem et corporis repudiandae voluptatum tenetur!</p>
+        </div>
+        <div class="btn-section">
+          <div class="btn-column">
+              <button class="btn-2" id="yoga" onclick="changeStyle(this)">Yoga</button>
+              <button class="btn-2" id="group" onclick="changeStyle(this)">Group</button>
+          </div>
+          <div class="btn-column">
+              <button class="btn-2" id="solo" onclick="changeStyle(this)">Solo</button>
+              <button class="btn-2" id="stretching" onclick="changeStyle(this)">Stretching</button>
+          </div>
+      </div>
+        <div class="section-2">
+            <div class="text-container">
+                <div class="prg-2">
+                    <h2 style="font-weight: bolder;" id="yazi2">Why are your Yoga?</h2>
+                    <p style="font-weight: bold;" id="yazi">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias alias doloremque quaerat aperiam explicabo qui, vitae excepturi sequi dignissimos quis cumque ducimus nesciunt reprehenderit perferendis velit earum quidem unde culpa.</p>
+                </div>
+                <div>
+                    <h2 style="font-weight: bolder;" id="yazi3">When comes Yoga Your Time.</h2>
+                    <div style="font-weight: bold;">
+                        <p>Saturday-Sunday:8:00am-10:00am</p>
+                        <p>Monday-Tuesday:10:00am-12:00pm</p>
+                        <p>Wednesday-Friday:3:00pm-6:00pm</p>
+                    </div>
+                </div>
+            </div>
+            <img class="w-96" id="image" src="img/yoga.jpg" alt="" style="height: auto; max-width: 40%;">
+        </div>
+        <div class="text-container-2">
+          <div class="calculator">
+              <h2 style="font-weight: bolder; color: rgb(41, 41, 215);">BMI Calculator</h2>
+              <div style="font-weight: bold;">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Id temporibus neque cupiditate, 
+                      earum quis aperiam fugiat vero nemo sequi commodi odio optio 
+                      dolorum eaque excepturi iure quidem, minus accusantium sed!</p>
+              </div>
+              <div  style="font-weight: bold;">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                      Quisquam id, nihil assumenda nulla velit debitis expedita 
+                      officia dicta. Impedit enim totam tempore alias eaque quidem! 
+                      Enim aliquam repudiandae sed illo.</p>
+              </div>
+              <div class="label">
+                <div class="height">
+                  <input type="number" id="height" placeholder="Your Height">
+                  <label for="height">cm</label>
+                </div>
+                <div class="weight">
+                  <input type="number" id="weight" placeholder="Your Weight">
+                  <label for="weight">kg</label>
+                </div>
+                  <div id="result"></div>
+              </div>
+          </div>
+          <div class="bmiIconContainer" style="position: relative;">
+            <p class="yourBMI" style="font-weight:bold; margin-top: 20px; text-align: center;">Your BMI</p>
+            <img class="bmiIndex" src="img/bmi-index.jpg" alt="" style="height: auto; max-width: 100%;">
+            <i class="bmiIcon fa-solid fa-caret-up" id="icon" style="color: orange; font-size: 3rem; position: absolute; left: 10%; margin-top: 23vh; transform: translateX(-50%);"></i>
+        </div>
+        
+        </div>
+    </section>
+    <!-- SECTİON TRAİNER -->
+    <section id="trainer">
+      <div class="main" style="margin-top:30px">
+        <div class="section ">
+          <h2 style="font-weight: bolder; color: blue;">OUR BEST TRAINERS</h2>
+          <hr class="hr">
+          <p class="prg">Lorem ipsum dolor sit amet , adipisicing elit. Aspernatur a explicabo rem exercitationem, suscipit  consequatur pariatur veniam!</p>
+        </div>
+        <div class="card-bg">
+          <div class="cards">
+            <div class="card-img" id="trainerCard">
+              <div class="card text-white" style="background-color: orange;">
+                <img src="img/trainer1.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay" style="display: flex; align-items: center; justify-content: end; flex-direction: column;">
+                  <h5>Jane Doe</h5>
+                  <p>Cardio Trainer</p>
+                </div>
+              </div>
+              <div class="card text-white " style="background-color: orange; " >
+                <img src="img/trainer2.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay" style="display: flex; align-items: center; justify-content: end; flex-direction: column;" >
+                  <h5>Chuck Mia</h5>
+                  <p>Cardio Trainer</p>
+                </div>
+              </div>
+              <div class="card text-white" style="background-color: orange;">
+                <img src="img/trainer3.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay" style="display: flex; align-items: center; justify-content: end; flex-direction: column;">
+                  <h5>Mia Lucy</h5>
+                  <p>Cardio Trainer</p>
+                </div>
+              </div>
+          </div>
+         </div>
+        </div>
+      </div>
+      <div>
+        <div class="section">
+          <h2 style="font-weight: bolder; color: blue;">PURCHASE FROM US</h2>
+          <hr class="hr">
+          <p class="prg">Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit. adipisicing el obcaecati!</p>
+        </div>
+        <div class="purchase mb-5" id="purchaseCard">
+          <div class="card" style="width: 18rem;">
+            <img src="img/purchase1.jpg" class="card-img-top" alt="...">
+            <div class="card-isbody" style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+              <h6>Kettlebell / 3kg</h6>
+              <p class="card-text"><span class="card-istext">89.99$</span>/59.99$</p>
+              <p><i class="fa-solid fa-cart-shopping"></i>Add To Cart</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/purchase2.jpg" class="card-img-top" alt="...">
+            <div class="card-isbody" style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+              <h6>Kettlebell / 3kg</h6>
+              <p class="card-text"><span class="card-istext">89.99$</span>/59.99$</p>
+              <p><i class="fa-solid fa-cart-shopping"></i>Add To Cart</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/purchase3.jpg" class="card-img-top" alt="...">
+            <div class="card-isbody" style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+              <h6>Kettlebell / 3kg</h6>
+              <p class="card-text"><span class="card-istext">89.99$</span>/59.99$</p>
+              <p><i class="fa-solid fa-cart-shopping"></i>Add To Cart</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/purchase4.jpg" class="card-img-top" alt="...">
+            <div class="card-isbody" style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+              <h6>Kettlebell / 3kg</h6>
+              <p class="card-text"><span class="card-istext">89.99$</span>/59.99$</p>
+              <p><i class="fa-solid fa-cart-shopping"></i>Add To Cart</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+    <!-- SECTİON REVİEW -->
+    <section class="review" id="review">
+      <div class="section mt-5">
+        <h2 style="font-weight: bolder; color: blue;">REVIEW CLIENT</h2>
+        <hr class="hr">
+        <p class="prg">Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit. adipisicing el obcaecati!</p>
+      </div>
+      <div class="reviewClient"> 
+        <div class="clientCard">
+          <div class="clientCard-body">
+            <div class="client-info">
+              <img class="clientİmg" src="img/client1.jpg" alt="">
+              <ul>
+                <li><strong>Diet Expert</strong></li> 
+                <li><span>CFO</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="textCard">
+            <div class="textCard-body">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus quam at voluptatibus cumque assumenda enim beatae iure blanditiis eaque eos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="clientCard">
+          <div class="clientCard-body">
+            <div class="client-info">
+              <img class="clientİmg" src="img/client2.jpg" alt="">
+              <ul>
+                <li><strong>Diet Expert</strong></li> 
+                <li><span>CFO</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="textCard">
+            <div class="textCard-body">
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus quam at voluptatibus cumque assumenda enim beatae iure blanditiis eaque eos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTİON CONTACT -->
+    <section id="contact" style="overflow-x: hidden;">
+      <div class="section mt-5">
+        <h2 style="font-weight: bolder; color: blue;">CONTACT US</h2>
+        <hr class="hr">
+        <p class="prg">Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit. adipisicing el obcaecati!</p>
+      </div>
+      <div class="contactUs">
+        <div class="row">
+          <div class="col-lg-6" id="information">
+            <div style="font-weight: bold; display: flex; gap:20px">
+              <div>
+                <p>Mobile Number</p>
+                <p style="font-size: 12px;">+135 850 255 5582</p>
+              </div>
+              <div>
+                <p>Email Addres</p>
+                <p style="font-size: 12px;">demo@demo.com</p>
+              </div>
+            </div>
+        
+            <form>
+              <div class="form-group">
+                <label style="font-weight: bold;">Make An Appointment</label>
+                <input type="name" class="form-control" style="background-color: #ECF9FF" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" style="background-color: #ECF9FF" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" style="background-color: #ECF9FF" placeholder="Your Message"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6" style="overflow-x: hidden;">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24476.94741356019!2d32.864853200000006!3d39.927554549999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34ff3e3520f8f%3A0x53409f6ed7f2d8bd!2sNEW%20HOUSE%20SUIT!5e0!3m2!1str!2str!4v1714235663116!5m2!1str!2str" 
+              width="275" height="300" marginwidth="0" scrolling="no" style="border:0;"></iframe>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- SECTİON FOOTER -->
+    <footer class="footer " style="background-color: #205295;">
+      <div class="container">
+        <div>
+          <img src="img/logo.png" alt="">
+          <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsa harum quidem consectetur ad itaque eveniet labore sit fugiat dicta, iusto autem tenetur laboriosam nostrum.</p>
+        </div>
+        <div class="footerText">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <h4>Information</h4>
+                <li>About Us</li>
+                <li>Classes</li>
+                <li>Blog</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <h4>Helpful Links</h4>
+                <li>Services</li>
+                <li>Supports</li>
+                <li>Terms & Condition</li>
+                <li>Privacy Policy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+            
+      </div>
+    </footer>
+  
+<script src="js/sport.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
